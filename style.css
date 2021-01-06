@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     border: 1px solid black;
+    font-family: 'Bebas Neue', cursive;
 }
 header{
     height: 20px;
@@ -29,6 +30,10 @@ section{
     margin-left: 5%;
     padding-left: 2%;
 }
+.half-width p{
+    font-size: 16px;
+    font-family:Roboto;
+}
 .half-width img{
     width: 100%;
     height:480px;
@@ -43,10 +48,12 @@ section{
     padding-top: 40px;
 }
 .list-work{
+    font-family:Roboto;
     margin: 0px 30px;
     background-color: greenyellow;
 }
 .single-work{
+    position: relative;
     float: left;
     width: 30%;
     margin: 20px 0px 0px 20px;
@@ -56,6 +63,29 @@ section{
     box-shadow: 10px 10px 40px white;
 }
 .single-work img{
-    width: 100%;
+     width: 100%;
     
 }
+/*==== experts area====== */
+.experts-area{
+    height: 250px;
+    background-color: black;
+    color:white;
+}
+.experts{
+    height:200px;
+    margin:0px 100px;
+   
+}
+.experts-work{
+    position: relative;
+    float: left;
+    height: 160px;
+    width: 25%;
+    padding: 0px 20px;
+    margin-left:30px;
+    border: 1px solid white;
+    border-radius: 5%;
+    box-shadow: 10px 10px 40px white;
+}
+/* ====================== */
