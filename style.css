@@ -1,18 +1,16 @@
 body{
     margin: 0px;
     padding: 0px;
-    border: 1px solid black;
     font-family: 'Bebas Neue', cursive;
 }
-header{
-    height: 20px;
-    width:auto;
-    display: inline;
+/* =========nav section========== */
+nav{
+    display: block;
+    height: 30px;
     list-style-type: none;
-    float: right;
+    text-align: right;
     margin-right: 50px;
-    padding-top: 10px;
-    
+    padding: 10px 0px;  
 }
 .btn-link{
     margin:0px 10px;
@@ -20,9 +18,17 @@ header{
     color: black;
     text-transform: capitalize;
 }
-
-section{
+/* ==========main-section========= */
+.main{
     height: 500px;
+}
+.btn-style{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
 .half-width{
     max-width: 40%;
@@ -30,14 +36,21 @@ section{
     margin-left: 5%;
     padding-left: 2%;
 }
+span{
+    color: tomato;
+}
+.half-width h1{
+    margin: 0px;
+}
 .half-width p{
     font-size: 16px;
     font-family:Roboto;
 }
 .half-width img{
     width: 100%;
-    height:480px;
+    height:460px;
 }
+/* ==============working-area============ */
 .working-area{
     height: 500PX;
     background-color:rgb(204, 222, 230);
@@ -74,13 +87,12 @@ section{
 }
 .experts-area h1{
     margin:0px;
-    padding: 0px;
+    padding: 20px;
     text-align: center;
 }
 .experts{
     height:200px;
-    margin:0px 100px;
-   
+    margin:0px 100px;  
 }
 .experts-work{
     position: relative;
@@ -93,4 +105,36 @@ section{
     border-radius: 5%;
     box-shadow: 10px 10px 40px white;
 }
-/* ====================== */
+/* =========footer-area============= */
+footer{
+    height: 250px;
+    padding-top: 50px;
+}
+.half-height{
+    height: 50%;   
+}
+.first-half{
+    margin: 0px 200px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./shape/Group_33094_1.png);
+    border-radius: 30px;
+}
+.first-half h1{
+    color: white;
+    margin: 0px;
+    padding: 50px;
+    width:50%;
+}
+.first-half a{
+    float: right;
+    margin: 50px 30px 30px 30px;
+}
+.second-half{
+    text-align: center;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
